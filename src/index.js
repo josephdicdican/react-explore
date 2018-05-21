@@ -13,10 +13,15 @@ const sample = "sample";
 
 const App = () => (
   <div style={styles}>
-    <Hello name="React Conditions" />
-    <h2>Work with react conditions {"\u2728"}</h2>
+    <Hello name="React Explorations" />
+    <h2>Work with react {"\u2728"}</h2>
 
-    <h4>Scenario:</h4>
+    <h4>Rendering (+concatinating)</h4>
+    <pre>
+      <div>{"\"1+2 = {1+2}\""} => "1+2 = {1+2}"</div>
+    </pre>
+
+    <h4>Conditions</h4>
     <pre>
       <div>{"const data = {"}</div>
       <div>&emsp; {"description: '',"}</div>
